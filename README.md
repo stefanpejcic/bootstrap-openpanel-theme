@@ -10,10 +10,10 @@ Starter theme for the OpenPanel 2.x user panel. It holds the same templates that
 git clone https://github.com/stefanpejcic/bootstrap-openpanel-theme /etc/openpanel/openpanel/templates/mytheme
 ```
 
-Then pick **mytheme** in **OpenAdmin > Settings > OpenPanel > Theme** (or set `template=mytheme` under `[PANEL]` in `/etc/openpanel/openpanel/conf/openpanel.config`) and restart OpenPanel:
+Then pick **mytheme** in **OpenAdmin > Settings > OpenPanel > Theme**, or run:
 
 ```bash
-podman restart openpanel
+opencli config update template mytheme
 ```
 
 ## What's inside
